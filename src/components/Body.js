@@ -31,7 +31,7 @@ function Body() {
             experience.
           </Text>
           <Text>
-            <Link color="orange" textDecor="none" href="/menu/">
+            <Link color="orange" textDecor="none" href="/book/">
               Book your table now
             </Link>
           </Text>

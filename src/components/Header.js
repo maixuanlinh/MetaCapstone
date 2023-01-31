@@ -22,16 +22,41 @@ const Header = () => {
             justify="center"
             spacing={40}
           >
-            <Link href="/" to="/" fontWeight="bold" fontSize="20" color="white">
+            <Link
+              style={{ textDecoration: "none" }}
+              href="/"
+              to="/"
+              fontWeight="bold"
+              fontSize="20"
+              color="white"
+            >
               Home
             </Link>
-            <Link href="/about" fontWeight="bold" fontSize="20" color="white">
+            <Link
+              style={{ textDecoration: "none" }}
+              href="/about"
+              fontWeight="bold"
+              fontSize="20"
+              color="white"
+            >
               About
             </Link>
-            <Link href="/menu" fontWeight="bold" fontSize="20" color="white">
+            <Link
+              style={{ textDecoration: "none" }}
+              href="/menu"
+              fontWeight="bold"
+              fontSize="20"
+              color="white"
+            >
               Menu
             </Link>
-            <Link href="/book" fontWeight="bold" fontSize="20" color="white">
+            <Link
+              textDecoration="none"
+              href="/book"
+              fontWeight="bold"
+              fontSize="20"
+              color="white"
+            >
               Book
             </Link>
           </Stack>
